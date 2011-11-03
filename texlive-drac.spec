@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/drac
+# catalog-date 2008-08-17 11:40:59 +0200
+# catalog-license lppl
+# catalog-version 1
 Name:		texlive-drac
 Version:	1
 Release:	1
@@ -52,6 +58,7 @@ defined with \DeclareRobustActChar, in the same way that
 %doc %{_texmfdistdir}/source/latex/drac/drac-en.dtx
 %doc %{_texmfdistdir}/source/latex/drac/drac-fr.dtx
 %doc %{_texmfdistdir}/source/latex/drac/drac.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +69,5 @@ defined with \DeclareRobustActChar, in the same way that
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
