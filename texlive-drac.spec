@@ -6,7 +6,7 @@
 # catalog-version 1
 Name:		texlive-drac
 Version:	1
-Release:	4
+Release:	5
 Summary:	Declare active character substitution, robustly
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/drac
