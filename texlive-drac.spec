@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Declare active character substitution, robustly
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/drac
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/drac
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/drac.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/drac.doc.r%{version}.tar.xz
